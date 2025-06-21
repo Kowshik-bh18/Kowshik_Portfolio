@@ -188,14 +188,13 @@ st.markdown('<h1 class="main-title">👨‍💻 Kowshik BH</h1>', unsafe_allow_h
 st.markdown('<p class="subtitle">CSE Student | Software & Web Developer | Python & Django Enthusiast</p>', unsafe_allow_html=True)
 
 # --- Navigation Section ---
-st.markdown("""
-<div class="nav-buttons">
-    <a href="pages/1_🧠_Skills.py">🧠 Skills</a>
-    <a href="pages/2_📁_Projects.py">📁 Projects</a>
-    <a href="pages/3_🏆_Achievements.py">🏆 Achievements</a>
-    <a href="pages/4_📬_Contact.py">📬 Contact</a>
-</div>
-""", unsafe_allow_html=True)
+with st.sidebar:
+    st.markdown("## 📄 Navigation")
+    st.page_link("pages/Skills.py", label="Skills", icon="🧠")
+    st.page_link("pages/Projects.py", label="Projects", icon="📁")
+    st.page_link("pages/Achievements.py", label="Achievements", icon="🏆")
+    st.page_link("pages/Contact.py", label="Contact", icon="📬")
+
 
 # --- Social links ---
 st.markdown("""
