@@ -190,11 +190,10 @@ st.markdown('<p class="subtitle">CSE Student | Software & Web Developer | Python
 # --- Navigation Section ---
 with st.sidebar:
     st.markdown("## 📄 Navigation")
-    st.page_link("pages/Skills.py", label="Skills", icon="🧠")
-    st.page_link("pages/Projects.py", label="Projects", icon="📁")
-    st.page_link("pages/Achievements.py", label="Achievements", icon="🏆")
-    st.page_link("pages/Contact.py", label="Contact", icon="📬")
-
+    st.page_link("pages/Skills.py", label="🧠 Skills")
+    st.page_link("pages/Projects.py", label="📁 Projects")
+    st.page_link("pages/Achievements.py", label="🏆 Achievements")
+    st.page_link("pages/Contact.py", label="📬 Contact")
 
 # --- Social links ---
 st.markdown("""
