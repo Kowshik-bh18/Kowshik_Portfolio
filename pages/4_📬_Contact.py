@@ -10,7 +10,7 @@ st.markdown("#### 💬 Have a question, feedback, or collaboration idea? Drop me
 
 # --- MongoDB Setup ---
 try:
-    cluster = MongoClient(os.getenv("MONGO_URI"))
+    cluster = MongoClient(st.secrets["MONGO_URI"])
     db = cluster["portfolio"]
 except Exception as conn_err:
     st.error("⚠️ Could not connect to MongoDB.")
