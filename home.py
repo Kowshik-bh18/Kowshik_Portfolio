@@ -39,8 +39,8 @@ st.markdown(f"""
     }}
 
     .main-title {{
-        font-size: 3rem;
-        font-weight: 700;
+        font-size: 3.5rem;
+        font-weight: 800;
         text-align: center;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         -webkit-background-clip: text;
@@ -54,6 +54,31 @@ st.markdown(f"""
         color: #666;
         margin-bottom: 2rem;
         animation: fadeInUp 1s ease-out 0.3s both;
+    }}
+
+    .nav-buttons {{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        animation: fadeInUp 1s ease-out 0.6s both;
+    }}
+
+    .nav-buttons a {{
+        padding: 0.7rem 1.5rem;
+        font-weight: 600;
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: #667eea;
+        color: white;
+        transition: all 0.3s ease;
+    }}
+
+    .nav-buttons a:hover {{
+        background-color: #4e54c8;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
     }}
 
     .social-links {{
@@ -155,38 +180,24 @@ st.markdown(f"""
     .footer-note span {{
         color: #e25555;
     }}
-
-    /* Sidebar Gradient */
-    section[data-testid="stSidebar"] > div:first-child {{
-        background: linear-gradient(135deg, #4e54c8, #8f94fb);
-        border-radius: 0px 20px 20px 0px;
-        height: 100%;
-        padding-top: 3rem;
-        color: white;
-    }}
-
-    section[data-testid="stSidebar"] .block-container {{
-        color: white;
-    }}
 </style>
 """, unsafe_allow_html=True)
 
-# Sidebar
-with st.sidebar:
-    st.markdown("## 📂 Navigation", unsafe_allow_html=True)
-    st.markdown("""
-- 🏠 Home  
-- 🧠 Skills  
-- 📁 Projects  
-- 🏆 Achievements  
-- 📞 Contact
-""")
-
-# Main Title
+# --- Hero Title ---
 st.markdown('<h1 class="main-title">👨‍💻 Kowshik BH</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">CSE Student | Software & Web Developer | Python & Django Enthusiast</p>', unsafe_allow_html=True)
 
-# Social links
+# --- Navigation Section ---
+st.markdown("""
+<div class="nav-buttons">
+    <a href="pages/1_🧠_Skills.py">🧠 Skills</a>
+    <a href="pages/2_📁_Projects.py">📁 Projects</a>
+    <a href="pages/3_🏆_Achievements.py">🏆 Achievements</a>
+    <a href="pages/4_📬_Contact.py">📬 Contact</a>
+</div>
+""", unsafe_allow_html=True)
+
+# --- Social links ---
 st.markdown("""
 <div class="social-links">
     <a href="https://www.linkedin.com/in/kowshikbh" target="_blank">
@@ -201,7 +212,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Career Objective Section
+# --- Career Objective ---
 st.markdown('<div class="section-card">', unsafe_allow_html=True)
 st.markdown("### 🚀 Career Objective")
 st.markdown("""
@@ -213,7 +224,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
 
-# Education Section
+# --- Education Section ---
 st.markdown('<div class="section-card">', unsafe_allow_html=True)
 st.markdown("### 🎓 Education")
 st.markdown("""
@@ -233,7 +244,7 @@ Sri Bhakthanatha Swamy High School, Mandya<br>
 """, unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
 
-# Resume Download
+# --- Resume Download ---
 st.markdown('<div class="download-section">', unsafe_allow_html=True)
 try:
     with open("KOWSHIK BH_RESUME.pdf", "rb") as f:
@@ -243,11 +254,11 @@ except FileNotFoundError:
     st.info("📄 Resume file not found. Please add 'KOWSHIK BH_RESUME.pdf' to your project directory.")
 st.markdown('</div>', unsafe_allow_html=True)
 
-# Final Animation
+# --- Final Animation ---
 st.markdown("---")
 st.markdown("### 👋 Thanks for visiting!")
 if lottie_animation:
-    st_lottie = st.components.v1.html(f"""
+    st.components.v1.html(f"""
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_touohxv0.json"
                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
@@ -255,7 +266,7 @@ if lottie_animation:
 else:
     st.info("✨ Final animation failed to load. Check your internet or Lottie URL.")
 
-# Footer
+# --- Footer ---
 st.markdown(f"""
 <div class="footer-note">
     <p>Made with <span>❤️</span> by <strong>Kowshik BH</strong><br>
