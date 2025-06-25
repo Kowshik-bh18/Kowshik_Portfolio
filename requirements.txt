@@ -3,3 +3,5 @@ pymongo
 Pillow
 plotly
 streamlit-extras
+pymongo[srv]
+dnspython
