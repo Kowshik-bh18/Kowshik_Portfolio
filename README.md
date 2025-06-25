@@ -17,7 +17,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Kowshik-bh18/Kowshik_Portfolio?style=social)](https://github.com/Kowshik-bh18/Kowshik_Portfolio/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Kowshik-bh18/Kowshik_Portfolio)](https://github.com/Kowshik-bh18/Kowshik_Portfolio/issues)
 
-[🌐 Live Demo](https://your-portfolio-url.streamlit.app) • [📧 Contact Me](mailto:your-email@example.com) • [📋 Resume](./KOWSHIK_BH_RESUME.pdf)
+[🌐 Live Demo](https://kowshikportfolio-bzevbqhpr6fuwicgjzebwe.streamlit.app/) • [📧 Contact Me](mailto:kowshikbh18@gmail.com) • [📋 Resume](./KOWSHIK_BH_RESUME.pdf)
 
 </div>
 
@@ -296,38 +296,19 @@ docker run -p 8501:8501 portfolio
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-### 🏠 Home Page
-![Home Page](https://via.placeholder.com/600x400/FF6B6B/FFFFFF?text=Home+Page+Screenshot)
-
-### 💼 Projects Section
-![Projects](https://via.placeholder.com/600x400/4ECDC4/FFFFFF?text=Projects+Screenshot)
-
-### 📬 Contact Form
-![Contact](https://via.placeholder.com/600x400/45B7D1/FFFFFF?text=Contact+Form+Screenshot)
-
-</div>
-
----
-
 ## 🧑‍💻 About Me
 
 <div align="center">
-
-![Profile Picture](https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=KB)
 
 ### Kowshik BH
 **Computer Science Student | Full-Stack Developer | AI Enthusiast**
 
 *Passionate about building modern, scalable applications with creative flair*
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kowshikbh18@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kowshikbh )
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kowshik-bh18)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kowshikportfolio-bzevbqhpr6fuwicgjzebwe.streamlit.app/)
 
 </div>
 
@@ -426,7 +407,7 @@ Found a bug? [Create an issue](https://github.com/Kowshik-bh18/Kowshik_Portfolio
 Have ideas? [Start a discussion](https://github.com/Kowshik-bh18/Kowshik_Portfolio/discussions)
 
 ### ☕ Buy Me a Coffee
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/your-username)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Kowshik-bh18)
 
 </div>
 
@@ -447,9 +428,8 @@ Have ideas? [Start a discussion](https://github.com/Kowshik-bh18/Kowshik_Portfol
 
 I'm always open to discussing new opportunities, collaborations, or just talking about tech!
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kowshikbh18@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kowshikbh )
 
 ---
 
