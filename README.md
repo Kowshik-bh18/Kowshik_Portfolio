@@ -16,7 +16,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Kowshik-bh18/Kowshik_Portfolio?style=social)](https://github.com/Kowshik-bh18/Kowshik_Portfolio/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/Kowshik-bh18/Kowshik_Portfolio)](https://github.com/Kowshik-bh18/Kowshik_Portfolio/issues)
 
-[🌐 Live Demo](https://kowshikportfolio-bzevbqhpr6fuwicgjzebwe.streamlit.app/) • [📧 Contact Me](mailto:kowshikbh18@gmail.com) • [📋 Resume](./KOWSHIK_BH_RESUME.pdf)
+[🌐 Live Demo](https://kowshikportfolio-bzevbqhpr6fuwicgjzebwe.streamlit.app/) • [📧 Contact Me](mailto:kowshikbh18@gmail.com) 
 
 </div>
 
