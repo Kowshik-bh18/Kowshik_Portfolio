@@ -1,8 +1,7 @@
-# 🚀 Kowshik BH — Developer Portfolio
+   # 🚀 Kowshik BH — Developer Portfolio
 
 <div align="center">
 
-![Portfolio Banner](https://via.placeholder.com/800x200/FF6B6B/FFFFFF?text=Kowshik+BH+Portfolio)
 
 **An interactive developer portfolio built with modern web technologies**
 
