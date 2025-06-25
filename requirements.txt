@@ -1,3 +1,5 @@
 streamlit
 pymongo
 Pillow
+plotly
+streamlit-extras
