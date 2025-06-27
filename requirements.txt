@@ -5,3 +5,8 @@ plotly
 streamlit-extras
 pymongo[srv]
 dnspython
+streamlit-lottie
+pandas
+requests
+python-dateutil
+pytz
