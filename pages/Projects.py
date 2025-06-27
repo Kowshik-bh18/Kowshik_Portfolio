@@ -9,10 +9,10 @@ st.markdown("Explore my practical experience through these real-world developmen
 # ✅ Resume-based + detailed project list
 projects = [
     {
-        "name": "Hostel Management System",
+        "name": "Dormitory Management System",
         "desc": "A full-stack web app to manage hostel operations such as student registrations, room assignments, and admin analytics.",
         "stack": ["Django", "MySQL", "HTML5", "CSS3"],
-        "github": "https://github.com/Kowshik-bh18/hostel-management",
+        "github": "https://github.com/Kowshik-bh18/Dormitory_Management_System",
         "status": "Completed",
         "details": """
 ### 🔧 Features:
